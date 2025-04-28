@@ -1,0 +1,21 @@
+Comandos GIT
+============
+git init
+git clone <endereço>
+git status
+git add <arquivo> (adiciona o arquivo ao stage)
+git reset <arquivo> (retira o arquivo do stage)
+git restore <arquivo> (restaura o arquivo que está no stage para o diretorio de trabalho)
+git diff
+git diff <nome do arquivo>
+git commit -m "Mensagem"
+git commit -a -m "Mensagem"
+git log
+git branch (lista as branches)
+git branch <nome da branch>
+git branch -D (nome da branch)
+git checkout -b <nome da branch> (muda de branch) o -b cria se nõ existir
+git branch -m <novo nome da branch> (muda o nome da branch ativa)
+git push -u origin main
+git merge <nome do branch>
+git pull (pega as atualizações do repositorio)
